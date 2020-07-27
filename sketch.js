@@ -2306,7 +2306,7 @@ if (mouseX > xnl && mouseX < xnl + lnl && mouseY > ynl && mouseY < ynl + anl)
       text("PARABÉNS, VOCÊ CONSEGUIU CONCLUIR O DESAFI0 COM RESULTADO POSITIVO.",25,35,320,50);
       image(feliz,120,95,100,90);     
       textSize(30);
-      text(pontos, 165, 250);
+      text(pontos, 160, 250)
     }
   
   
