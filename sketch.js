@@ -1,6 +1,6 @@
 //Variaveis
 var img;
-var tela = 1;
+var tela = 13;
 var l = 225;
 var a = 50;
 //VAR MENU
@@ -21,7 +21,7 @@ var anl = 40;
 var xnl = 120;
 var ynl = 341;
 
-var pontos=0;
+var pontos=-1;
 
 //VAR ALTERNATIVAS
 var laa1 = 150;
@@ -458,7 +458,7 @@ if (tela ==3)
   textSize(15);
   textAlign(LEFT);
   fill(0);
-  text("Brincando com os sólidos é um jogo educativo que destina-se a alunos do 6° ano do ensino fundamental, que busca  proporcionar ao aluno uma aprendizagem significativa de forma lúdica e desenvolver o raciocínio lógico. O jogo tem como objetivo identificar figuras geométricas espaciais  em forma de um quiz educatico onde o aluno devera assinalar a alternativa correta para cada pergunta, caso acerte o alumo somara 2 pontos, se o aluno não conseguir acertar perdera 1 ponto. O quiz contem duas fases antes de cada fase aparecera uma tela explicativa, onde terão todas informativas com instruções. O jogo se encerra quando o aluno consegur completar o desafio respondendo todas as perguntas",25,25,300,260)
+  text("Brincando com os sólidos é um jogo educativo que destina-se a alunos do 6° ano do ensino fundamental e busca  proporcionar ao aluno uma aprendizagem significativa de forma lúdica para desenvolver o raciocínio lógico. O jogo tem como objetivo identificar figuras geométricas espaciais  em forma de um quiz educatico, onde o aluno deverá assinalar a alternativa correta para cada pergunta, caso acerte somara 2 pontos e a cada erro perderá 1 ponto. O quiz contem duas fases, antes de cada uma delas aparecerá uma tela explicativa, onde terão todas as instruções. O jogo termina quando o aluno conseguir completar o desafio respondendo todas as perguntas.",25,25,317,300)
   
     stroke(50);
     fill(250);
@@ -830,10 +830,9 @@ if (tela == 7)
       fill(240);
       rect(xad4,yad4,lad4,aad4,10)
     }
-      textSize(15);
       fill(0);
       noStroke();
-      text("PIRÂMIDE",220,325)
+      text("PIRÂMIDE PENTAGONAL",185,325)
   
       if(pontos<=0)
       {
@@ -1299,7 +1298,7 @@ if (tela == 13)
     }
       fill(0);
       noStroke();
-      text("    PIRÂMIDE",40,277)
+      text("CONE",70,277)
   
       stroke(50);
       fill(250);
@@ -2306,7 +2305,7 @@ if (mouseX > xnl && mouseX < xnl + lnl && mouseY > ynl && mouseY < ynl + anl)
       text("PARABÉNS, VOCÊ CONSEGUIU CONCLUIR O DESAFI0 COM RESULTADO POSITIVO.",25,35,320,50);
       image(feliz,120,95,100,90);     
       textSize(30);
-      text(pontos, 160, 250)
+      text(pontos, 160, 250);
     }
   
   
